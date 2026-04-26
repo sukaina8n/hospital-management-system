@@ -113,15 +113,15 @@ def inject_css():
  
     /* Page background */
     .stApp {
-        background: #f0f4f8;
+        background: #fdf6f8;
     }
  
     /* Sidebar */
     section[data-testid="stSidebar"] {
-        background: #0a2540 !important;
+        background: #f9eef2 !important;
     }
     section[data-testid="stSidebar"] * {
-        color: #e8f0fe !important;
+        color: #3d2b33 !important;
     }
     section[data-testid="stSidebar"] .stRadio label {
         font-size: 15px;
@@ -130,7 +130,7 @@ def inject_css():
  
     /* Hero header */
     .hero {
-        background: linear-gradient(135deg, #0a2540 0%, #1a3a6b 60%, #1565c0 100%);
+        background: linear-gradient(135deg, #c17a8f 0%, #d4909f 50%, #7a9e8a 100%);
         border-radius: 20px;
         padding: 40px 48px;
         margin-bottom: 32px;
@@ -174,13 +174,13 @@ def inject_css():
         background: white;
         border-radius: 16px;
         padding: 24px 28px;
-        border-left: 4px solid #1565c0;
+        border-left: 4px solid #b5766e;
         box-shadow: 0 2px 12px rgba(0,0,0,0.06);
     }
     .stat-card .num {
         font-size: 2.4rem;
         font-weight: 600;
-        color: #0a2540;
+        color: #3d2b33;
         line-height: 1;
     }
     .stat-card .label {
@@ -201,7 +201,7 @@ def inject_css():
     }
     .section-card h3 {
         font-family: 'DM Serif Display', serif;
-        color: #0a2540;
+        color: #3d2b33;
         font-size: 1.3rem;
         margin: 0 0 20px 0;
         border-bottom: 1px solid #eee;
@@ -211,8 +211,8 @@ def inject_css():
     /* Vital badge */
     .vital-badge {
         display: inline-block;
-        background: #e8f0fe;
-        color: #1565c0;
+        background: #fce8ef;
+        color: #b5766e;
         border-radius: 8px;
         padding: 6px 14px;
         font-size: 0.82rem;
@@ -224,11 +224,11 @@ def inject_css():
  
     /* Record rows */
     .record-row {
-        background: #f8fafc;
+        background: #fdf6f8;
         border-radius: 10px;
         padding: 14px 18px;
         margin-bottom: 10px;
-        border-left: 3px solid #1565c0;
+        border-left: 3px solid #b5766e;
         font-size: 0.9rem;
         color: #333;
     }
@@ -238,7 +238,7 @@ def inject_css():
  
     /* Streamlit button override */
     .stButton > button {
-        background: #0a2540;
+        background: #7a9e8a;
         color: white;
         border: none;
         border-radius: 10px;
@@ -248,7 +248,7 @@ def inject_css():
         transition: background 0.2s;
     }
     .stButton > button:hover {
-        background: #1565c0;
+        background: #c17a8f;
         color: white;
     }
  
@@ -265,7 +265,7 @@ def inject_css():
     /* Page title */
     .page-title {
         font-family: 'DM Serif Display', serif;
-        color: #0a2540;
+        color: #3d2b33;
         font-size: 1.8rem;
         margin-bottom: 24px;
     }
